@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5em;
+}
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	color: #2B96CC;
+	text-decoration: none;
+}
+a,
+button {
+	color: #1696e7;
+	outline: medium none;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+li{
+  list-style: none;
+  line-height: 30px;
+}
+h1,
+h2,
+h3,
+h4{
+  color: #000000;
+  margin: 0px;
+}
+p{
+  color: #555555;
+
+}
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+ol,
+ul{
+  padding-left: 0;
+}
+
+.btn-yellow {
+  background: #FF733C;
+  padding: 12px 74px;
+  border-radius: 30px;
+  display: inline-block;
+}
+.btn-white {
+  background: #fff;
+  padding: 12px 74px;
+  border-radius: 30px;
+  display: block;
+  color: #555555;
+  display: inline-block;
+}
+
+label {
+  font-weight: 500;
+}
+
+.mt-35{
+  margin-top: 35px;
+}
+.mb-8{
+  margin-bottom: 8px;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+.mt-50{
+  margin-top: 50px;
+}
+.mt-60{
+  margin-top: 60px;
+}
+.mt-70{
+  margin-top: 70px;
+}
+.mt-80{
+  margin-top: 80px;
+}
+.mb-50{
+  margin-bottom: 50px;
+}
+.mb-60{
+  margin-bottom: 60px;
+}
+.mb-70{
+  margin-bottom: 70px;
+}
+.mb-80{
+  margin-bottom: 80px;
+}
+.pt-50{
+  padding-top: 50px;
+}
+.pt-60{
+  padding-top: 60px;
+}
+.pt-70{
+  padding-top: 70px;
+}
+.pt-80{
+  padding-top: 80px;
+}
+.pb-50{
+  padding-bottom: 50px;
+}
+.pb-60{
+  padding-bottom: 60px;
+}
+.pb-70{
+  padding-bottom: 70px;
+}
+.pb-80{
+  padding-bottom: 80px;
+}
+.mb-64{
+  margin-bottom: 64px;
+}
+
+
+
+
+
+
+/*-- header start --*/
+.header-transparent {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 5%;
+}
+.ul-middle {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+li.header-btn {
+  margin-left: 52px;
+}
+
+.ul-middle a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+/*-- header start --*/
+
+
+
+/*-- slider start --*/
+.slider-height {
+  min-height: 880px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+.slider-padding {
+  padding-top: 240px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.slider-text h2 {
+  font-size: 64px;
+  color: #fff;
+}
+.slider-text p {
+  font-size: 18px;
+  padding-top: 20px;
+  margin-right: 90px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.slider-btn-yellow {
+  padding: 12px 34px;
+  margin-right: 12px;
+}
+
+/*-- slider end --*/
+
+
+/*-- video start  --*/
+
+.video-p-m{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.video-wrapper {
+  margin-left: 39px;
+}
+.video-single-content {
+  padding: 24px;
+  background-color: #F6F6F6;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+.video-single-content h3 {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 0;
+}
+.border-orange {
+  width: 50px;
+  height: 4px;
+  background: #FF733C;
+}
+.video-single-content p {
+  color: #555555;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+.video-right {
+  width: 830px;
+  height: 575px;
+  text-align: center;
+  position: relative;
+}
+.video-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*-- video end --*/
+
+/*-- id card start  --*/
+.id-card-m-p {
+  background-size: cover;
+}
+.id-card-one-content {
+  position: relative;
+}
+.id-card-graphics {
+  position: relative;
+  z-index: 1;
+  margin-top: 52px;
+}
+.id-content-shape {
+  position: absolute;
+  top: 39px;
+  left: 0;
+}
+.id-card-graphics h2 {
+  font-size: 64px;
+  line-height: 110%;
+  padding-right: 37px;
+}
+.id-card-graphics h4 {
+  font-size: 18px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #27292E;
+  font-weight: 500;
+}
+.id-card-graphics p {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.id-card-graphics a {
+  font-weight: 700;
+  color: #fff;
+}
+.id-card-img img {
+  width: 100%;
+}
+/*-- id card end --*/
+
+
+/*-- id card end --*/
+.single-logo{
+  margin-bottom: 32px;
+}
+/*-- id card end --*/
+
+/*-- id card end --*/
+.logo-bottom-top-content  h2{
+  color: #101828;
+  font-size: 36px;
+}
+.logo-bottom-top-content  p{
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.logo-bottom-content h3{
+  font-size: 20px;
+  color: #101828;
+  margin-top: 20px;
+}
+.logo-bottom-content p{
+  font: 18px;
+  color: #555555;
+  line-height: 30px;
+  margin-top: 25px;
+}
+
+.logo-down-content p{
+  font-size: 18px;
+  font-weight: 300;
+  color: #555555;
+}
+/*-- id card end --*/
+
+
+/*-- client said start --*/
+.client-said-m-b{
+  background: #F6F6F6;
+}
+
+.client-side-head h2 {
+  font-size: 48px;
+  color: #283646;
+  margin-bottom: 11px;
+}
+.client-side-head p {
+  margin: 0 25%;
+  margin-bottom: 6%;
+}
+.client-testimonial img{
+  display: block;
+  margin: auto;
+}
+.client-testimonial span {
+  font-size: 14px;
+  margin-top: 15px;
+  display: block;
+  margin-bottom: 10px;
+}
+.client-testimonial h4 {
+  font-size: 20px;
+  color: #283646;
+  margin-bottom: 11px;
+}
+
+.client-testimonial p {
+    font-size: 16px;
+    color: #919191;
+    line-height: 139%;
+    font-weight: 300;
+    margin: 0 6%;
+}
+/*-- client said end --*/
+
+
+/*-- contact area start --*/
+.contact-content p {
+  margin-top: 18px;
+}
+.input-design{
+  display: inline-block;
+}
+.input-design {
+  display: inline-block;
+  border: 1px solid #EAECF0;
+  padding: 10px 14px;
+  border-radius: 7px;
+  margin-right: 20px;
+}
+.input-padding{
+  padding-right: 68px;
+}
+/*-- contact area end --*/
+
+
+/*-- review area start --*/
+.single-review {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  border-radius: 5px;
+}
+.single-review h2 {
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+.single-review span {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.review-google{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.single-review p {
+  padding-right: 18%;
+  margin-bottom: 0px;
+}
+.review-icon ul li{
+  display: inline-block;
+}
+
+/*-- review area end --*/
+
+
+/*-- Plastkort area start --*/
+.Plastkort-p-m {
+  padding: 0 200px;
+  margin-top: 120px;
+}
+.Plastkort-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 0px 40px 0px rgba(135, 146, 161, 0.11), 0px 0px 24px 0px rgba(135, 146, 161, 0.16);
+  padding: 110px 0;
+}
+.Plastkort-txt p{
+  margin-bottom: 0;
+}
+/*-- Plastkort area end --*/
+
+
+/*-- footer area start --*/
+.footer-area{
+  margin-top: 140px;
+}
+.footer-logo p {
+  color: #555555;
+  font-size: 18px;
+  font-weight: 100;
+  padding-right: 37%;
+  padding-top: 30px;
+}
+.footer-page ul li a{
+  color: #000;
+}
+.footer-page h3 {
+  font-size: 22px;
+  color: #555555;
+  padding-bottom: 20px;
+}
+.footer-page ul li a {
+  color: #555555;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-review h2 {
+  color: #555555;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.footer-review span {
+  display: block;
+  color: #555555;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+.footer-social a {
+  padding-right: 15px;
+}
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 1px solid #ebebeb;
+}
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-privacy ul {
+  margin-bottom: 0px;
+}
+.footer-privacy ul li {
+  display: inline-block;
+  padding-right: 12px;
+  color: #455880;
+  font-size: 14px;
+}
+/*-- foooter area end --*/
